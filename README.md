@@ -1,2 +1,2 @@
 # medQuery-semanticSearch
-patient-to-patient retrieval system via semantic search
+Objective: Patient-to-patient retrieval system via semantic search
