@@ -34,7 +34,7 @@ def compute_patient_embeddings(patients, batch_size=32):
     return np.vstack(embeddings)
 
 print("Loading PMC-Patients dataset...")
-patients = load_pmc_patients('pmc_patients.csv', max_samples=100000)  # Adjust max_samples as needed
+patients = load_pmc_patients('pmc_patients.csv', max_samples=160000)  # Adjust max_samples as needed
 
 print("Computing patient embeddings in batches...")
 sys.stdout.flush()
